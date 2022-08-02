@@ -1,0 +1,25 @@
+{
+  "name": "cb-v3-uinew",
+  "version": "1.0.0",
+  "description": "practice from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open",
+    "smoke": "npx cypress run --spec 'cypress/integration/test_specs/*/*smoke.spec.js'",
+    "regression": "npm run smoke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaVaku/CB-v3-UInew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrynaVaku/CB-v3-UInew/issues"
+  },
+  "homepage": "https://github.com/IrynaVaku/CB-v3-UInew#readme",
+  "dependencies": {
+    "cypress": "^9.6.0"
+  }
+}
